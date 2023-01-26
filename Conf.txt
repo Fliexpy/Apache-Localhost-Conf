@@ -1,5 +1,7 @@
-C:\Apache24\conf\httpd.conf
----------------------------------------------
+Path : C:\Apache24\conf\httpd.conf
+
+Code :
+
 Alias /pma "C:/Apache24/PMA"
 <Directory "C:/Apache24/PMA">
     Options Indexes FollowSymLinks
