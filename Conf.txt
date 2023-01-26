@@ -1,0 +1,12 @@
+APACHE
+---------------------------------------------
+Alias /pma "C:/Apache24/PMA"
+<Directory "C:/Apache24/PMA">
+    Options Indexes FollowSymLinks
+    AllowOverride All
+    Require all granted
+</Directory>
+
+LoadModule php_module "C:/Apache24/PHP/php8apache2_4.dll"
+AddType application/x-httpd-php .php
+PHPIniDir "C:/Apache24/PHP"
