@@ -1,4 +1,4 @@
-APACHE
+C:\Apache24\conf\httpd.conf
 ---------------------------------------------
 Alias /pma "C:/Apache24/PMA"
 <Directory "C:/Apache24/PMA">
